@@ -1,0 +1,11 @@
+{
+    "name" : "catcode",
+    "version" : "1.0.0",
+    "description" : "A application similar to claude code",
+    "workspaces"  : [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev:cli" : "bun run --watch packages/cli/src/index.tsx"
+    }
+}
